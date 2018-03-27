@@ -5,3 +5,30 @@
 	margin-right: 5px; 
 
 }
+/*.carousel {
+  width:640px;
+  height:360px;
+}*/
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+#Eh_image{
+	height: 400px;
+	width: 200px;
+	margin-top: -3px;
+	margin-right: 5px; 
+}
+#Bh_image{
+	height: 400px;
+	width: 200px;
+	margin-top: -3px;
+	margin-right: 5px; 
+}
+#Bi_image{
+	height: 400px;
+	width: 200px;
+	margin-top: -3px;
+	margin-right: 5px; 
+}
