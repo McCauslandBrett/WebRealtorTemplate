@@ -5,3 +5,34 @@
 	margin-right: 5px; 
 
 }
+
+
+.navbar-inverse 
+{
+	background-color: white;
+	border-color: white;
+}
+
+
+#navtext
+{
+	 margin-top: 5%;
+}
+
+ .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+.navbar-brand
+{
+	margin: 0;
+	padding: 0;
+	height: 80px;
+
+}
+
+.navbar-brand img
+{
+	max-height: 120%;
+}
