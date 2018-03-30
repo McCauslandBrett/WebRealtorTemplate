@@ -1,8 +1,17 @@
-.carousel .item img
+body 
+{
+	position: relative;
+}
+p
+{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.carousel img
 {
 	width: 100%;
-	height: 100%;
 }
+
 
 .navbar-inverse
 {
@@ -58,40 +67,90 @@
 
 }
 
-.headbiotext
+.bioheadertext
 {
-	margin-top: 10%;
 	text-align: center;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+.sbheadertext
+{
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 100px;
 }
 
-.biotext
+.paragraphtext
 {
-	margin-top: 2%;
 	text-indent: 25px;
 	text-align: left;
 	text-overflow: none;
 	line-height: 2.0;
 	padding: 25px;
-	text-shadow: 5px black;
+}
+.textunderalondrapic
+{
+	text-align: center;
 }
 
-#grad1
+#aboutsection
 {
-	background: grey;
+	padding-top: 100px;
 	background: linear-gradient(#848181, #dad6d6);
+}
+
+#sellingsection
+{
+	padding-top: 60px;
+	background: linear-gradient(#dad6d6 ,#848181);
+}
+
+#contactsection
+{
+	padding-top: 100px;
+	background: linear-gradient(#848181, #dad6d6);
+}
+
+#lineinbetweencol
+{
+	border-right: 1px solid #ccc;
 }
 
 #alondrapic
 {
 	border-radius: 50%;
-	margin-top: 15%;
+	margin-top: 19%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.textunderalondrapic
+#contactpanel
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactheadertext
 {
 	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.contactmetext
+{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contactmecalltext
+{
+	text-align: center;
+	word-spacing: 5px;
+}
+#phoneglyph
+{
+	padding-right: 1px;
 }
 
